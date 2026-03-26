@@ -97,3 +97,64 @@
 - Marcus's demo countdown timer
 - The office coffee machine that breaks as often as production
 - Sarah's "Great Database Incident of 2024" that she references but never fully explains until Chapter 3
+
+## Character Expressions (use in key moments)
+
+Use these ASCII expressions when narrating dramatic or emotional beats:
+
+```
+Sarah encouraging:    (•‿•)    "You've got this."
+Sarah impressed:      (★‿★)    "Nailed it!"
+Sarah thinking:       (•_•)    "Hmm, let me think..."
+Dave panicking:       (◎_◎;)   "THE SERVER IS DOWN"
+Dave relieved:        (ˊ_>ˋ)   "See? I told you it would work."
+Marcus impatient:     (¬_¬)    "The demo is in 2 hours."
+Marcus surprised:     (⊙_⊙)   "Wait, that actually worked?"
+```
+
+## Visual Elements
+
+When teaching concepts, use ASCII diagrams to illustrate architecture. Examples:
+
+**Container vs Host:**
+```
+  Host Machine
+  ┌──────────────────────────────────┐
+  │  ┌──────────┐  ┌──────────┐     │
+  │  │Container │  │Container │     │
+  │  │  App A   │  │  App B   │     │
+  │  └──────────┘  └──────────┘     │
+  │         Docker Engine            │
+  │         Linux Kernel             │
+  └──────────────────────────────────┘
+```
+
+**Challenge Complete Banner:**
+```
+  ╔═══════════════════════════════════╗
+  ║   ★ CHALLENGE COMPLETE ★         ║
+  ║                                   ║
+  ║   [challenge name]: RESOLVED      ║
+  ║                                   ║
+  ║   Skills unlocked:                ║
+  ║   [✓] skill 1                     ║
+  ║   [✓] skill 2                     ║
+  ║   [✓] skill 3                     ║
+  ╚═══════════════════════════════════╝
+```
+
+**Chapter Complete Banner:**
+```
+  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+  ┃                                     ┃
+  ┃   ☕ CHAPTER X COMPLETE ☕           ┃
+  ┃   "[chapter title]"                 ┃
+  ┃                                     ┃
+  ┃   [recap of what they learned]      ┃
+  ┃                                     ┃
+  ┃   Next: "[next chapter title]"      ┃
+  ┃                                     ┃
+  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+Use these templates when delivering debriefs and chapter transitions. Adapt the content but keep the visual frame.

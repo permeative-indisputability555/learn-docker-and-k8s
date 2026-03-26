@@ -1,3 +1,24 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 6                                   ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  ⎈  "The Giant Roaster"               │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+     Single Docker Host            Kubernetes Cluster
+    ┌──────────────┐         ┌────────────────────────┐
+    │  ☕ app ☕    │         │  Node 1    Node 2      │
+    │  100% CPU    │         │  ☕ ☕ ☕    ☕ ☕ ☕      │
+    │  💀 OOM!     │         │                        │
+    └──────────────┘         │  Node 3    Auto-heal   │
+      one machine            │  ☕ ☕ ☕    ☕ ← new!   │
+      = one point            │                        │
+        of failure           └────────────────────────┘
+                               self-healing + scaling
+
+    (◎_◎;) Dave at 3 AM: "WHAT DO WE DO"
+    (•‿•) Sarah: "We Kubernetes."
+
 # Chapter 6: The Giant Roaster
 
 ## Story

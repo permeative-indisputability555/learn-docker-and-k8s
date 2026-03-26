@@ -1,3 +1,19 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 4                                   ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  🔌  "The Silent Grinder"             │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+    Default Bridge (broken)      User-Defined Bridge (fixed!)
+    ┌─────────────────────┐     ┌──────────────────────────┐
+    │ frontend  backend   │     │ frontend ──DNS──> backend│
+    │    ?          ?     │     │    ✓    "backend"    ✓   │
+    │  "Host not found!"  │     │  "Connected!"            │
+    └─────────────────────┘     └──────────────────────────┘
+       (¬_¬) Marcus: "Demo is in 2 hours."
+       (•‿•) Sarah: "We've got this."
+
 # Chapter 4: The Silent Grinder
 
 ## Story

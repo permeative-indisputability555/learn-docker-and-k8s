@@ -1,3 +1,22 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 2                                   ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  🏋️  "The 2GB Espresso"              │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+    BEFORE                    AFTER
+    ┌──────────────┐         ┌──────────────┐
+    │ ubuntu  750MB│         │              │
+    │ apt-get 500MB│         │ alpine    8MB│
+    │ go build 800MB│        │ binary   15MB│
+    │ source   50MB│         │              │
+    │──────────────│         │──────────────│
+    │ TOTAL: 2.1GB │         │ TOTAL: 23MB  │
+    └──────────────┘         └──────────────┘
+      (¬_¬) Marcus: "Our cloud bill looks like a
+                     gold-plated espresso machine."
+
 # Chapter 2: The 2GB Espresso
 
 ## Story

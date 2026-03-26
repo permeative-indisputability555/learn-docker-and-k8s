@@ -1,0 +1,175 @@
+{
+  "name": "Docker 容器管理與最佳實踐",
+  "children": [
+    {
+      "name": "映像檔構建與優化",
+      "children": [
+        {
+          "name": "基礎映像檔選擇",
+          "children": [
+            {
+              "name": "使用最小化映像檔 (Alpine, Slim, Scratch)"
+            },
+            {
+              "name": "避免使用 latest 標籤，應釘選具體版本"
+            },
+            {
+              "name": "選用官方或受信任發佈者的映像檔"
+            }
+          ]
+        },
+        {
+          "name": "Dockerfile 優化",
+          "children": [
+            {
+              "name": "多階段構建 (Multi-stage builds) 分離編譯與執行環境"
+            },
+            {
+              "name": "合併 RUN 指令並清理快取以減少層數"
+            },
+            {
+              "name": "使用 .dockerignore 排除無關文件"
+            },
+            {
+              "name": "將變動頻率低的指令放在前面以利用快取"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "容器安全性強化",
+      "children": [
+        {
+          "name": "權限控管",
+          "children": [
+            {
+              "name": "非 root 用戶運行 (USER 指令)"
+            },
+            {
+              "name": "避免特權容器與不必要的 Capabilities"
+            },
+            {
+              "name": "設置 root 唯讀文件系統與不可寫執行檔"
+            }
+          ]
+        },
+        {
+          "name": "機密資訊管理",
+          "children": [
+            {
+              "name": "禁止在 Dockerfile 中硬編碼密碼或 API Key"
+            },
+            {
+              "name": "利用環境變數、.env 或 Docker Secrets 注入"
+            },
+            {
+              "name": "定期掃描漏洞 (Trivy, Snyk, Docker Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "數據持久化與存儲",
+      "children": [
+        {
+          "name": "掛載類型",
+          "children": [
+            {
+              "name": "具名卷 (Named Volumes)：Docker 管理，生產環境推薦"
+            },
+            {
+              "name": "綁定掛載 (Bind Mounts)：主機路徑對應，開發環境推薦"
+            },
+            {
+              "name": "tmpfs：內存存儲，適用於臨時或敏感數據"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "網絡配置與通訊",
+      "children": [
+        {
+          "name": "網絡驅動類型",
+          "children": [
+            {
+              "name": "Bridge (預設)：用戶自定義橋接提供自動 DNS 解析"
+            },
+            {
+              "name": "Host：容器與主機共用網絡棧，性能高但無隔離"
+            },
+            {
+              "name": "Overlay：用於 Swarm/跨主機通訊"
+            },
+            {
+              "name": "Macvlan/IPvlan：容器直接獲取物理網絡 IP"
+            }
+          ]
+        },
+        {
+          "name": "端口映射",
+          "children": [
+            {
+              "name": "使用 -p 發佈端口，EXPOSE 僅作元數據說明"
+            },
+            {
+              "name": "應用程式應綁定 0.0.0.0 以供外部訪問"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "運行維護與監控",
+      "children": [
+        {
+          "name": "健康檢查 (Healthchecks)",
+          "children": [
+            {
+              "name": "配置 test, interval, timeout 與 start_period"
+            },
+            {
+              "name": "配合 depends_on 確保依賴服務就緒"
+            }
+          ]
+        },
+        {
+          "name": "資源限制",
+          "children": [
+            {
+              "name": "限制 CPU 與 Memory 避免單一容器耗盡主機資源"
+            },
+            {
+              "name": "監控 exit code (如 137 表示 OOM)"
+            }
+          ]
+        },
+        {
+          "name": "日誌管理",
+          "children": [
+            {
+              "name": "配置日誌輪替 (log-rotation) 防止磁碟填滿"
+            },
+            {
+              "name": "將應用日誌輸出至 stdout/stderr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "多容器編排 (Docker Compose)",
+      "children": [
+        {
+          "name": "聲明式管理多個服務、網絡與卷"
+        },
+        {
+          "name": "環境變數優先級與覆蓋機制 (Override files)"
+        }
+      ]
+    }
+  ]
+}

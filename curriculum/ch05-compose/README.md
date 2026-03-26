@@ -1,3 +1,22 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 5                                   ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  🎼  "The Symphony of Steam"          │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+    BEFORE: 15 commands              AFTER: 1 command
+    $ docker run frontend...         $ docker compose up
+    $ docker run backend...
+    $ docker run redis...              ┌─ frontend
+    $ docker run postgres...           ├─ backend
+    $ docker network create...         ├─ redis
+    $ docker network connect...        └─ postgres
+    ... (╯°□°)╯ ┻━┻
+                                       ✓ All running!
+
+      (•‿•) Sarah: "One command to rule them all."
+
 # Chapter 5: The Symphony of Steam
 
 > "I am *tired* of writing setup docs. This is the fourth new hire this month."

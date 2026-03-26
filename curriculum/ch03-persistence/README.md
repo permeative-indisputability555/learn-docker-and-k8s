@@ -1,3 +1,24 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 3                                   ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  💾  "The Vanishing Beans"            │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+     docker rm database         docker rm database
+     WITHOUT volume:            WITH volume:
+
+    ┌──────────┐               ┌──────────┐
+    │  Data    │               │  Data    │
+    │  ☕ ☕ ☕  │               │  ☕ ☕ ☕  │
+    └────┬─────┘               └────┬─────┘
+         │ 💀 GONE                   │
+         v                     ┌────v─────┐
+     (nothing)                 │  Volume  │ ← still here!
+                               │  ☕ ☕ ☕  │
+                               └──────────┘
+       (◎_◎;) Dave: "I just restarted the database..."
+
 # Chapter 3: The Vanishing Beans
 
 > "I added a new specialty roast to my favorites, but when the server restarted, it was gone!"

@@ -1,3 +1,22 @@
+    ╔══════════════════════════════════════════════╗
+    ║  Chapter 7 — THE FINALE                      ║
+    ║  ┌──────────────────────────────────────┐    ║
+    ║  │  🔥  "The Great Latte Leak"           │    ║
+    ║  └──────────────────────────────────────┘    ║
+    ╚══════════════════════════════════════════════╝
+
+    ┌─────────────────────────────────────────────┐
+    │  INCIDENT REPORT — 06:47 AM                 │
+    │                                             │
+    │  🔴 API: ImagePullBackOff (typo in tag)     │
+    │  🔴 Worker: OOMKilled (memory limit)        │
+    │  🔴 DB creds found in public logs           │
+    │                                             │
+    │  Dave: ✈️ (unreachable)                      │
+    │  Marcus: 😱                                 │
+    │  Sarah: (•_•) "It's just you and me, kid."  │
+    └─────────────────────────────────────────────┘
+
 # Chapter 7: The Great Latte Leak
 
 ## The Story So Far
