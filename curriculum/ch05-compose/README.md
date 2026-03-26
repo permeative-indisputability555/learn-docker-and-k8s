@@ -1,21 +1,25 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 5                                   ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  🎼  "The Symphony of Steam"          │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+```
+  ___ _    ___    ___
+ / __| |_ | __|  / __|___ _ __  _ __  ___ ___ ___
+| (__| ' \|__ \ | (__/ _ \ '  \| '_ \/ _ (_-</ -_)
+ \___|_||_|___/  \___\___/_|_|_| .__/\___/__/\___|
+                               |_|
 
-    BEFORE: 15 commands              AFTER: 1 command
-    $ docker run frontend...         $ docker compose up
+ 🎼 "The Symphony of Steam"
+
+    BEFORE: 15 commands 😵       AFTER: 1 command 🎉
+
+    $ docker run frontend...      $ docker compose up
     $ docker run backend...
-    $ docker run redis...              ┌─ frontend
-    $ docker run postgres...           ├─ backend
-    $ docker network create...         ├─ redis
-    $ docker network connect...        └─ postgres
-    ... (╯°□°)╯ ┻━┻
-                                       ✓ All running!
+    $ docker run redis...           .-- frontend  ✅
+    $ docker run postgres...        |-- backend   ✅
+    $ docker network create...      |-- redis     ✅
+    $ docker network connect...     '-- postgres  ✅
+    ... (╯°□°)╯
+                                    All running!
 
-      (•‿•) Sarah: "One command to rule them all."
+    (^_^) Sarah: "One command to rule them all." ☕
+```
 
 # Chapter 5: The Symphony of Steam
 

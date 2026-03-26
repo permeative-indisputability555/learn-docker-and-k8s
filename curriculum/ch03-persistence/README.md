@@ -1,23 +1,21 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 3                                   ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  💾  "The Vanishing Beans"            │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+  ___ _    ____   ___ _
+ / __| |_ |__ /  / __| |_ ___ _ _ __ _ __ _ ___
+| (__| ' \ |_ \ \__ \  _/ _ \ '_/ _` / _` / -_)
+ \___|_||_|___/  |___/\__\___/_| \__,_\__, \___|
+                                      |___/
 
-     docker rm database         docker rm database
-     WITHOUT volume:            WITH volume:
+ 💾 "The Vanishing Beans"
 
-    ┌──────────┐               ┌──────────┐
-    │  Data    │               │  Data    │
-    │  ☕ ☕ ☕  │               │  ☕ ☕ ☕  │
-    └────┬─────┘               └────┬─────┘
-         │ 💀 GONE                   │
-         v                     ┌────v─────┐
-     (nothing)                 │  Volume  │ ← still here!
-                               │  ☕ ☕ ☕  │
-                               └──────────┘
-       (◎_◎;) Dave: "I just restarted the database..."
+    WITHOUT volume:            WITH volume:
+    .----------.               .----------.
+    |   Data   |               |   Data   |
+    '----+-----'               '----+-----'
+         |                          |
+         v                    .-----v-----.
+      (gone!) 💨              |  Volume   | <-- still here! ✅
+                              '-----------'
+
+    (@_@;) Dave: "I just restarted the database..." 😱
 
 # Chapter 3: The Vanishing Beans
 

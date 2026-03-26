@@ -1,21 +1,20 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 2                                   ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  🏋️  "The 2GB Espresso"              │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+  ___ _    ___    ___
+ / __| |_ |_  )  |_ _|_ __  __ _ __ _ ___ ___
+| (__| ' \ / /    | || '  \/ _` / _` / -_|_-<
+ \___|_||_/___|  |___|_|_|_\__,_\__, \___/__/
+                                |___/
 
-    BEFORE                    AFTER
-    ┌──────────────┐         ┌──────────────┐
-    │ ubuntu  750MB│         │              │
-    │ apt-get 500MB│         │ alpine    8MB│
-    │ go build 800MB│        │ binary   15MB│
-    │ source   50MB│         │              │
-    │──────────────│         │──────────────│
-    │ TOTAL: 2.1GB │         │ TOTAL: 23MB  │
-    └──────────────┘         └──────────────┘
-      (¬_¬) Marcus: "Our cloud bill looks like a
-                     gold-plated espresso machine."
+ 🏋️ "The 2GB Espresso"
+
+    BEFORE (2.1 GB) 😱         AFTER (23 MB) ✨
+    .---------------.          .---------------.
+    | ubuntu  750MB |          |               |
+    | apt-get 500MB |          | alpine     8MB|
+    | go build 800MB|          | binary    15MB|
+    | source   50MB |          |               |
+    '---------------'          '---------------'
+
+    (-_-) Marcus: "Our cloud bill is insane." 💸
 
 # Chapter 2: The 2GB Espresso
 

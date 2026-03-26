@@ -1,18 +1,19 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 4                                   ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  🔌  "The Silent Grinder"             │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+  ___ _   _ _    _  _     _                  _
+ / __| |_| | |  | \| |___| |_ __ _____ _ _| | _____
+| (__| ' \_  _| | .` / -_)  _\ V  V / _ \ '_| / /(_-<
+ \___|_||_||_|  |_|\_\___|\__|\_/\_/\___/_| |_\_\/__/
 
-    Default Bridge (broken)      User-Defined Bridge (fixed!)
-    ┌─────────────────────┐     ┌──────────────────────────┐
-    │ frontend  backend   │     │ frontend ──DNS──> backend│
-    │    ?          ?     │     │    ✓    "backend"    ✓   │
-    │  "Host not found!"  │     │  "Connected!"            │
-    └─────────────────────┘     └──────────────────────────┘
-       (¬_¬) Marcus: "Demo is in 2 hours."
-       (•‿•) Sarah: "We've got this."
+ 🔌 "The Silent Grinder"
+
+    Default Bridge (broken) ❌     User-Defined Bridge (fixed!) ✅
+    .---------------------.        .-------------------------.
+    | frontend   backend  |        | frontend ----> backend  |
+    |    ?           ?    |        |   OK    (DNS)    OK     |
+    | "Host not found!"   |        | "Connected!"            |
+    '---------------------'        '-------------------------'
+
+    (-_-) Marcus: "Demo is in 2 hours." ⏰
+    (^_^) Sarah:  "We've got this." 💪
 
 # Chapter 4: The Silent Grinder
 

@@ -1,23 +1,25 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 6                                   ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  ⎈  "The Giant Roaster"               │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+```
+  ___ _      __    _  __    _                      _
+ / __| |_   / /   | |/ /  _| |__  ___ _ _ _ _  ___| |_ ___ ___
+| (__| ' \ / _ \  | ' < || | '_ \/ -_) '_| ' \/ -_)  _/ -_|_-<
+ \___|_||_|\___/  |_|\_\_,_|_.__/\___|_| |_||_\___|\__\___/__/
 
-     Single Docker Host            Kubernetes Cluster
-    ┌──────────────┐         ┌────────────────────────┐
-    │  ☕ app ☕    │         │  Node 1    Node 2      │
-    │  100% CPU    │         │  ☕ ☕ ☕    ☕ ☕ ☕      │
-    │  💀 OOM!     │         │                        │
-    └──────────────┘         │  Node 3    Auto-heal   │
-      one machine            │  ☕ ☕ ☕    ☕ ← new!   │
-      = one point            │                        │
-        of failure           └────────────────────────┘
-                               self-healing + scaling
+ ⎈ "The Giant Roaster"
 
-    (◎_◎;) Dave at 3 AM: "WHAT DO WE DO"
-    (•‿•) Sarah: "We Kubernetes."
+    Single Docker Host 💀      Kubernetes Cluster 🚀
+    .--------------.           .-----------------------.
+    | app  app  app|           | Node 1     Node 2     |
+    | 100% CPU     |           | app app    app app    |
+    | OUT OF MEMORY|           |                       |
+    '--------------'           | Node 3     auto-heal  |
+     one machine               | app app    app <- new |
+     = one point               |                       |
+       of failure              '-----------------------'
+                                self-healing + scaling
+
+    (@_@;) Dave at 3 AM: "WHAT DO WE DO" 🆘
+    (^_^)  Sarah: "We Kubernetes." 😎
+```
 
 # Chapter 6: The Giant Roaster
 

@@ -1,21 +1,23 @@
-    ╔══════════════════════════════════════════════╗
-    ║  Chapter 7 — THE FINALE                      ║
-    ║  ┌──────────────────────────────────────┐    ║
-    ║  │  🔥  "The Great Latte Leak"           │    ║
-    ║  └──────────────────────────────────────┘    ║
-    ╚══════════════════════════════════════════════╝
+```
+  ___ _   ___    ___             _         _   _
+ / __| |_|__ /  | _ \_ _ ___  __| |_  _ __| |_(_)___ _ _
+| (__| ' \|_ \  |  _/ '_/ _ \/ _` | || / _|  _| / _ \ ' \
+ \___|_||_|___/  |_| |_| \___/\__,_|\_,_\__|\__|_\___/_||_|
 
-    ┌─────────────────────────────────────────────┐
-    │  INCIDENT REPORT — 06:47 AM                 │
-    │                                             │
-    │  🔴 API: ImagePullBackOff (typo in tag)     │
-    │  🔴 Worker: OOMKilled (memory limit)        │
-    │  🔴 DB creds found in public logs           │
-    │                                             │
-    │  Dave: ✈️ (unreachable)                      │
-    │  Marcus: 😱                                 │
-    │  Sarah: (•_•) "It's just you and me, kid."  │
-    └─────────────────────────────────────────────┘
+ 🔥 "The Great Latte Leak" -- THE FINALE 🔥
+
+    .---------------------------------------------.
+    |  INCIDENT REPORT -- 06:47 AM                |
+    |                                             |
+    |  [!!] API: ImagePullBackOff (typo in tag)   |
+    |  [!!] Worker: OOMKilled (memory limit)      |
+    |  [!!] DB creds found in public logs         |
+    |                                             |
+    |  Dave: on a flight (unreachable)   ✈️        |
+    |  Marcus: panicking                 😱        |
+    |  Sarah: "It's just you and me, kid." 💪     |
+    '---------------------------------------------'
+```
 
 # Chapter 7: The Great Latte Leak
 
