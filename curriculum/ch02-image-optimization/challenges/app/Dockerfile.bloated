@@ -1,0 +1,33 @@
+# CloudBrew Bean-Tracker — original Dockerfile
+#
+# WARNING: Do not use this in production.
+# This file is intentionally bloated for the optimization challenge.
+# Your mission: make it much, much smaller.
+
+FROM ubuntu:22.04
+
+# Install system dependencies
+RUN apt-get update
+RUN apt-get install -y curl wget git build-essential
+
+# Install Go
+RUN wget https://go.dev/dl/go1.21.0.linux-amd64.tar.gz
+RUN tar -C /usr/local -xzf go1.21.0.linux-amd64.tar.gz
+RUN rm go1.21.0.linux-amd64.tar.gz
+
+ENV PATH=$PATH:/usr/local/go/bin
+
+# Copy everything (including things we probably shouldn't)
+COPY . /app
+
+WORKDIR /app
+
+# Download dependencies
+RUN go mod download
+
+# Build the application
+RUN go build -o bean-tracker .
+
+EXPOSE 8080
+
+CMD ["/app/bean-tracker"]

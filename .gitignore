@@ -1,0 +1,20 @@
+# Player progress (personal to each player)
+.player/progress.yaml
+
+# Keep the template
+!.player/progress.yaml.template
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker build artifacts that might be created during challenges
+node_modules/
+*.log
+
+# Research materials (not needed for the game itself)
+# learn-devops/

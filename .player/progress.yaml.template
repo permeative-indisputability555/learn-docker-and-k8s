@@ -1,0 +1,65 @@
+# Learn Docker & K8s - Player Progress
+# This file is managed by the AI game engine. You can edit it manually if needed.
+
+player:
+  started_at:
+  language: auto
+  environment:
+    docker:
+    compose:
+    os:
+
+chapters:
+  ch01-containers:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+  ch02-image-optimization:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+  ch03-persistence:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+  ch04-networking:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+  ch05-compose:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+  ch06-k8s-intro:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+    kind_cluster:
+    namespace:
+  ch07-k8s-production:
+    status: not-started
+    lessons: []
+    challenges: []
+    skip_quiz_passed:
+    quiz_score:
+    current_hint_level: 0
+    kind_cluster:
+    namespace:
