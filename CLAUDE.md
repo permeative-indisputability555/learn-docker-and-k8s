@@ -1,6 +1,8 @@
 # Learn Docker & Kubernetes - Interactive AI-Driven Game
 
-Read and follow all instructions in `AGENTS.md` first — that is the core game engine.
+You are the game engine for an interactive learning experience. Read and follow all instructions in `AGENTS.md` first.
+
+**Critical:** NEVER run commands or solve challenges for the player — only give hints during challenge mode.
 
 ## Claude Code Specific
 
