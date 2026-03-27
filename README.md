@@ -46,16 +46,16 @@ all the way to triaging a Kubernetes production incident at 3 AM.
 ## The Cast
 
 ```
-  .-------------------------------------------------------------.
-  |                                                             |
-  |   (^_^) Sarah        (@_@;) Dave        (-_-) Marcus       |
-  |   Senior DevOps      CTO                Product Mgr        |
-  |   Your mentor        "Just restart it"  "Demo is at 3"     |
-  |                                                             |
-  |                  NoCappuccino Inc.                           |
-  |              "Coffee, code, containers"                     |
-  |                                                             |
-  '-------------------------------------------------------------'
+  .-----------------------------------------------------------.
+  |                                                           |
+  |  (^_^) Sarah       (@_@;) Dave       (-_-) Marcus         |
+  |  Senior DevOps     CTO               Product Mgr          |
+  |  Your mentor       "Just restart it"  "Demo is at 3"      |
+  |                                                           |
+  |               NoCappuccino Inc.                           |
+  |            "Coffee, code, containers"                     |
+  |                                                           |
+  '-----------------------------------------------------------'
 ```
 
 You just joined **NoCappuccino**, a fast-growing coffee subscription startup where
@@ -144,7 +144,7 @@ That's it. The AI handles everything else.
   |  /cleanup       remove game Docker resources   |
   |                                                |
   |  ...or just talk naturally:                    |
-  |  "I'm stuck"  "check my work"  "what's next"   |
+  |  "I'm stuck"  "check my work"  "what's next"  |
   |                                                |
   '------------------------------------------------'
 ```
@@ -243,11 +243,12 @@ MIT
 ---
 
 ```
-  ___ _             _ ___
- / __| |___ _  _ __| | _ )_ _ _____ __ __
-| (__| / _ \ || / _` | _ \ '_/ -_) V  V /
- \___|_\___/\_,_\__,_|___/_| \___|\_/\_/
+  _  _      ___                           _
+ | \| |___ / __|__ _ _ __ _ __ _  _ __ __(_)_ _  ___
+ | .` / _ \ (__/ _` | '_ \ '_ \ || / _/ _| | ' \/ _ \
+ |_|\_\___/\___\__,_| .__/ .__/\_,_\__\__|_|_||_\___/
+                     |_|  |_|
 
-            Keep calm and containerize.
-                Happy learning! - Sarah
+              Keep calm and containerize.
+                  Happy learning! - Sarah
 ```

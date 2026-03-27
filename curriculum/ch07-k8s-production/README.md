@@ -13,10 +13,12 @@
     |  [!!] Worker: OOMKilled (memory limit)      |
     |  [!!] DB creds found in public logs         |
     |                                             |
-    |  Dave: on a flight (unreachable)   ✈️        |
-    |  Marcus: panicking                 😱        |
-    |  Sarah: "It's just you and me, kid." 💪     |
+    |  Dave: on a flight (unreachable)            |
+    |  Marcus: panicking                          |
+    |  Sarah: "It's just you and me, kid."        |
     '---------------------------------------------'
+
+    ✈️  Dave is unreachable.  😱 Marcus is panicking.  💪 You've got this.
 ```
 
 # Chapter 7: The Great Latte Leak

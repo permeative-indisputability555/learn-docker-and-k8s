@@ -119,42 +119,42 @@ When teaching concepts, use ASCII diagrams to illustrate architecture. Examples:
 **Container vs Host:**
 ```
   Host Machine
-  ┌──────────────────────────────────┐
-  │  ┌──────────┐  ┌──────────┐     │
-  │  │Container │  │Container │     │
-  │  │  App A   │  │  App B   │     │
-  │  └──────────┘  └──────────┘     │
-  │         Docker Engine            │
-  │         Linux Kernel             │
-  └──────────────────────────────────┘
+  .-----------------------------------.
+  |  .----------.  .----------.       |
+  |  |Container |  |Container |       |
+  |  |  App A   |  |  App B   |       |
+  |  '----------'  '----------'       |
+  |         Docker Engine             |
+  |         Linux Kernel              |
+  '-----------------------------------'
 ```
 
 **Challenge Complete Banner:**
 ```
-  ╔═══════════════════════════════════╗
-  ║   ★ CHALLENGE COMPLETE ★         ║
-  ║                                   ║
-  ║   [challenge name]: RESOLVED      ║
-  ║                                   ║
-  ║   Skills unlocked:                ║
-  ║   [✓] skill 1                     ║
-  ║   [✓] skill 2                     ║
-  ║   [✓] skill 3                     ║
-  ╚═══════════════════════════════════╝
+  .------------------------------------.
+  |   * CHALLENGE COMPLETE *           |
+  |                                    |
+  |   [challenge name]: RESOLVED       |
+  |                                    |
+  |   Skills unlocked:                 |
+  |   [x] skill 1                      |
+  |   [x] skill 2                      |
+  |   [x] skill 3                      |
+  '------------------------------------'
 ```
 
 **Chapter Complete Banner:**
 ```
-  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-  ┃                                     ┃
-  ┃   ☕ CHAPTER X COMPLETE ☕           ┃
-  ┃   "[chapter title]"                 ┃
-  ┃                                     ┃
-  ┃   [recap of what they learned]      ┃
-  ┃                                     ┃
-  ┃   Next: "[next chapter title]"      ┃
-  ┃                                     ┃
-  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  .--------------------------------------.
+  |                                      |
+  |   CHAPTER X COMPLETE                 |
+  |   "[chapter title]"                  |
+  |                                      |
+  |   [recap of what they learned]       |
+  |                                      |
+  |   Next: "[next chapter title]"       |
+  |                                      |
+  '--------------------------------------'
 ```
 
 Use these templates when delivering debriefs and chapter transitions. Adapt the content but keep the visual frame.
